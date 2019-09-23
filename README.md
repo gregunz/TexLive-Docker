@@ -3,7 +3,7 @@ A Docker container running on Ubuntu with TexLive full system
 
 ## How to use
 
-### PDFLATEX filename.tex
+### `pdflatex filename.tex`
 
 ```bash
 docker run -it --rm -v <path>:/opt/app/ gregunz/texlive <filename.tex>
