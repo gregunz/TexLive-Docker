@@ -17,7 +17,15 @@ I personnaly set an alias like that:
 pdflatex='docker run -it --rm -v $(pwd):/opt/app/ gregunz/texlive'
 ```
 
-Which you can run after having `cd` into the directory.
+And use it that way:
+
+```bash
+cd <path>
+```
+
+```bash
+pdflatex <filename.tex>
+```
 
 Remarks appreciated, just open an issue.
 
